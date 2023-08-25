@@ -11,7 +11,7 @@ class FirebaseHelper
   {
     firestore.collection("Countries").add({
       "cases":model.cases,
-      "countries":model.country,
+      "country":model.country,
       "active":model.active,
       "critical":model.critical,
       "deaths":model.deaths,
