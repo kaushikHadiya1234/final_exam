@@ -71,7 +71,7 @@ class _BookmarkState extends State<Bookmark> {
                     Get.toNamed('read',arguments: bookmarkList[index]);
                   },
                   child: ListTile(
-                      title: Text("${bookmarkList[index].cases}",style: TextStyle(fontSize: 12.sp,fontWeight: FontWeight.bold),maxLines: 1,)
+                      title: Text("${bookmarkList[index].country}",style: TextStyle(fontSize: 12.sp,fontWeight: FontWeight.bold),maxLines: 1,)
 
                   )
                 );
